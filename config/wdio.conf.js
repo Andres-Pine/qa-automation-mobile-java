@@ -1,4 +1,3 @@
-// wdio.conf.js - Configuración base compartida
 exports.config = {
   runner: 'local',
   specs: [__dirname + '/../tests/specs/**/*.spec.js'],

@@ -1,4 +1,3 @@
-// wdio.ios.conf.js - Configuración iOS
 const baseConfig = require('./wdio.conf.js').config;
 const path = require('path');
 

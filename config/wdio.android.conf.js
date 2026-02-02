@@ -1,4 +1,3 @@
-// wdio.android.conf.js - Configuración Android
 const baseConfig = require('./wdio.conf.js').config;
 const path = require('path');
 
