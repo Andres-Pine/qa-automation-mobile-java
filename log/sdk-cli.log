@@ -750,3 +750,731 @@
 2026-02-01T03:41:42.476Z CLI info  [andrespiasosa_E8pSkL]  [stt4uvseu4a8hewuej9wushxr4v4avjtfqayt1rg]  [fdb19f62-1cee-4d5f-a099-33f79b52ea89]  [PRODUCTION] Making POST request to https://api.browserstack.com
 2026-02-01T03:41:42.874Z CLI info [TEST REPORTING AND ANALYTICS:module]  [andrespiasosa_E8pSkL]  [stt4uvseu4a8hewuej9wushxr4v4avjtfqayt1rg]  [fdb19f62-1cee-4d5f-a099-33f79b52ea89]  Visit https://automation.browserstack.com/builds/stt4uvseu4a8hewuej9wushxr4v4avjtfqayt1rg to view build report, insights, and many more debugging information all at one place!
 2026-02-01T03:41:42.880Z CLI info [main]  [andrespiasosa_E8pSkL]  [stt4uvseu4a8hewuej9wushxr4v4avjtfqayt1rg]  [fdb19f62-1cee-4d5f-a099-33f79b52ea89]  Received graceful signal termination, performing cleanup
+2026-02-02T23:26:46.132Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:app":"bs://4fca6ac49ca197a88731de1ce5e289202bd30a4d","appium:automationName":"UiAutomator2","deviceName":"Google Pixel 7","osVersion":"13.0","projectName":"QA Automation Mobile","buildName":"Android Tests","sessionName":"Android ApiDemos Tests","debug":true,"networkLogs":true,"wdioService":"9.23.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-02T23:26:46.152Z CLI info     Should start debug utility: undefined
+2026-02-02T23:26:46.155Z CLI info [testhub:module]  [andrespiasosa_E8pSkL]   [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Starting testhub from 79608:0
+2026-02-02T23:26:46.156Z CLI info  [andrespiasosa_E8pSkL]   [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-02T23:26:46.162Z CLI info  [andrespiasosa_E8pSkL]   [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-02T23:26:48.173Z CLI info [testhub:module]  [andrespiasosa_E8pSkL]   [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  startBuild: response=clvunj3u96mya1marbrnrfq10ufaex4gzftookcl
+2026-02-02T23:26:48.175Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-02T23:26:48.536Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-02T23:26:48.937Z CLI error  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  error invoking callback for eventName: {}
+2026-02-02T23:26:48.937Z CLI error  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-02-02T23:26:48.937Z CLI info [appautomate:service]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Using app: bs://4fca6ac49ca197a88731de1ce5e289202bd30a4d
+2026-02-02T23:26:49.598Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-02T23:26:49.598Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-02T23:26:49.599Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-02T23:26:53.858Z CLI info [sdk:service]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Driver initialized as primary driver: platformIndex=0
+2026-02-02T23:27:12.808Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1eb65ab4-48cf-47e3-8df7-fad6969e6fc7',
+    integrations: { browserstack: [Object] }
+  }
+} to 79608:0
+2026-02-02T23:27:12.809Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '1eb65ab4-48cf-47e3-8df7-fad6969e6fc7',
+    name: 'Debe ingresar a Animation y agregar botones',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\n' +
+        '    await ApiDemosPage.tapAnimation();\n' +
+        '    await ApiDemosPage.tapDefaultLayoutAnimations();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await driver.pause(2000);\n' +
+        '  }'
+    },
+    identifier: 'Debe ingresar a Animation y agregar botones',
+    scope: 'ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones',
+    scopes: [ 'ApiDemos Android - Validar animaciones' ],
+    file_name: 'tests/specs/android.animation.spec.js',
+    vc_filepath: 'tests/specs/android.animation.spec.js',
+    location: 'tests/specs/android.animation.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-02-02T23:27:12.796Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 79608:0
+2026-02-02T23:27:14.189Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1eb65ab4-48cf-47e3-8df7-fad6969e6fc7',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '1eb65ab4-48cf-47e3-8df7-fad6969e6fc7',
+      name: 'Debe ingresar a Animation y agregar botones',
+      body: [Object],
+      identifier: 'Debe ingresar a Animation y agregar botones',
+      scope: 'ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones',
+      scopes: [Array],
+      file_name: 'tests/specs/android.animation.spec.js',
+      vc_filepath: 'tests/specs/android.animation.spec.js',
+      location: 'tests/specs/android.animation.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-02-02T23:27:12.796Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 79608:0
+2026-02-02T23:27:14.189Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-02T23:27:26.885Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"1eb65ab4-48cf-47e3-8df7-fad6969e6fc7","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones","test_name":"Debe ingresar a Animation y agregar botones","test_code":"async () => {\n    await ApiDemosPage.tapAnimation();\n    await ApiDemosPage.tapDefaultLayoutAnimations();\n    await ApiDemosPage.tapAddButton();\n    await ApiDemosPage.tapAddButton();\n    await ApiDemosPage.tapAddButton();\n    await driver.pause(2000);\n  }","test_file_path":"tests/specs/android.animation.spec.js","test_location":"tests/specs/android.animation.spec.js","test_scope":"ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones","test_scopes":["ApiDemos Android - Validar animaciones"],"test_started_at":"2026-02-02T23:27:12.796Z","automate_session_name":"ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-02T23:27:26.880Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-02T23:27:26.886Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '1eb65ab4-48cf-47e3-8df7-fad6969e6fc7',
+    name: 'Debe ingresar a Animation y agregar botones',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\n' +
+        '    await ApiDemosPage.tapAnimation();\n' +
+        '    await ApiDemosPage.tapDefaultLayoutAnimations();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await driver.pause(2000);\n' +
+        '  }'
+    },
+    identifier: 'Debe ingresar a Animation y agregar botones',
+    scope: 'ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones',
+    scopes: [ 'ApiDemos Android - Validar animaciones' ],
+    file_name: 'tests/specs/android.animation.spec.js',
+    vc_filepath: 'tests/specs/android.animation.spec.js',
+    location: 'tests/specs/android.animation.spec.js',
+    result: 'passed',
+    duration_in_ms: 14084,
+    started_at: '2026-02-02T23:27:12.796Z',
+    finished_at: '2026-02-02T23:27:26.880Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 79608:0
+2026-02-02T23:27:28.196Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '1eb65ab4-48cf-47e3-8df7-fad6969e6fc7',
+      name: 'Debe ingresar a Animation y agregar botones',
+      body: [Object],
+      identifier: 'Debe ingresar a Animation y agregar botones',
+      scope: 'ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones',
+      scopes: [Array],
+      file_name: 'tests/specs/android.animation.spec.js',
+      vc_filepath: 'tests/specs/android.animation.spec.js',
+      location: 'tests/specs/android.animation.spec.js',
+      result: 'passed',
+      duration_in_ms: 14084,
+      started_at: '2026-02-02T23:27:12.796Z',
+      finished_at: '2026-02-02T23:27:26.880Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 79608:0
+2026-02-02T23:27:28.198Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-02T23:27:35.432Z CLI info [sdk:service]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Driver initialized as primary driver: platformIndex=0
+2026-02-02T23:27:49.356Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '76b05bcc-780e-4a4e-91b9-3fd344efbab9',
+    integrations: { browserstack: [Object] }
+  }
+} to 79608:0
+2026-02-02T23:27:49.357Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '76b05bcc-780e-4a4e-91b9-3fd344efbab9',
+    name: 'Debe ingresar a Morse Code y vibrar',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\n' +
+        '    await ApiDemosPage.tapOS();\n' +
+        '    await ApiDemosPage.tapMorseCode();\n' +
+        "    await ApiDemosPage.enterText('123');\n" +
+        '    await ApiDemosPage.tapVibrate();\n' +
+        '    await driver.pause(2000);\n' +
+        '  }'
+    },
+    identifier: 'Debe ingresar a Morse Code y vibrar',
+    scope: 'ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar',
+    scopes: [ 'ApiDemos Android - Ingreso a modalidad morse' ],
+    file_name: 'tests/specs/android.morse.spec.js',
+    vc_filepath: 'tests/specs/android.morse.spec.js',
+    location: 'tests/specs/android.morse.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-02-02T23:27:49.342Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 79608:0
+2026-02-02T23:27:50.205Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '76b05bcc-780e-4a4e-91b9-3fd344efbab9',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '76b05bcc-780e-4a4e-91b9-3fd344efbab9',
+      name: 'Debe ingresar a Morse Code y vibrar',
+      body: [Object],
+      identifier: 'Debe ingresar a Morse Code y vibrar',
+      scope: 'ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar',
+      scopes: [Array],
+      file_name: 'tests/specs/android.morse.spec.js',
+      vc_filepath: 'tests/specs/android.morse.spec.js',
+      location: 'tests/specs/android.morse.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-02-02T23:27:49.342Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 79608:0
+2026-02-02T23:27:50.206Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-02T23:27:56.558Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"76b05bcc-780e-4a4e-91b9-3fd344efbab9","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar","test_name":"Debe ingresar a Morse Code y vibrar","test_code":"async () => {\n    await ApiDemosPage.tapOS();\n    await ApiDemosPage.tapMorseCode();\n    await ApiDemosPage.enterText('123');\n    await ApiDemosPage.tapVibrate();\n    await driver.pause(2000);\n  }","test_file_path":"tests/specs/android.morse.spec.js","test_location":"tests/specs/android.morse.spec.js","test_scope":"ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar","test_scopes":["ApiDemos Android - Ingreso a modalidad morse"],"test_started_at":"2026-02-02T23:27:49.342Z","automate_session_name":"ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-02T23:27:56.555Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-02T23:27:56.559Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '76b05bcc-780e-4a4e-91b9-3fd344efbab9',
+    name: 'Debe ingresar a Morse Code y vibrar',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\n' +
+        '    await ApiDemosPage.tapOS();\n' +
+        '    await ApiDemosPage.tapMorseCode();\n' +
+        "    await ApiDemosPage.enterText('123');\n" +
+        '    await ApiDemosPage.tapVibrate();\n' +
+        '    await driver.pause(2000);\n' +
+        '  }'
+    },
+    identifier: 'Debe ingresar a Morse Code y vibrar',
+    scope: 'ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar',
+    scopes: [ 'ApiDemos Android - Ingreso a modalidad morse' ],
+    file_name: 'tests/specs/android.morse.spec.js',
+    vc_filepath: 'tests/specs/android.morse.spec.js',
+    location: 'tests/specs/android.morse.spec.js',
+    result: 'passed',
+    duration_in_ms: 7213,
+    started_at: '2026-02-02T23:27:49.342Z',
+    finished_at: '2026-02-02T23:27:56.555Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 79608:0
+2026-02-02T23:27:58.209Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '76b05bcc-780e-4a4e-91b9-3fd344efbab9',
+      name: 'Debe ingresar a Morse Code y vibrar',
+      body: [Object],
+      identifier: 'Debe ingresar a Morse Code y vibrar',
+      scope: 'ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar',
+      scopes: [Array],
+      file_name: 'tests/specs/android.morse.spec.js',
+      vc_filepath: 'tests/specs/android.morse.spec.js',
+      location: 'tests/specs/android.morse.spec.js',
+      result: 'passed',
+      duration_in_ms: 7213,
+      started_at: '2026-02-02T23:27:49.342Z',
+      finished_at: '2026-02-02T23:27:56.555Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 79608:0
+2026-02-02T23:27:58.210Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-02T23:28:01.034Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-02T23:28:01.037Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-02T23:28:01.373Z CLI info [testhub:module]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  stopBuild: clvunj3u96mya1marbrnrfq10ufaex4gzftookcl request={"finished_at":"2026-02-02T23:28:01.036Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-02T23:28:01.375Z CLI info  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-02T23:28:01.806Z CLI info [TEST REPORTING AND ANALYTICS:module]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Visit https://automation.browserstack.com/builds/clvunj3u96mya1marbrnrfq10ufaex4gzftookcl to view build report, insights, and many more debugging information all at one place!
+2026-02-02T23:28:01.816Z CLI info [main]  [andrespiasosa_E8pSkL]  [clvunj3u96mya1marbrnrfq10ufaex4gzftookcl]  [71724f44-1a66-435f-90f3-3f8ba1b9e70d]  Received graceful signal termination, performing cleanup
+2026-02-02T23:35:35.883Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"android","appium:app":"bs://4fca6ac49ca197a88731de1ce5e289202bd30a4d","appium:automationName":"UiAutomator2","deviceName":"Google Pixel 7","osVersion":"13.0","projectName":"QA Automation Mobile","buildName":"Android Tests","sessionName":"Android ApiDemos Tests","debug":true,"networkLogs":true,"wdioService":"9.23.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-02-02T23:35:35.911Z CLI info     Should start debug utility: undefined
+2026-02-02T23:35:35.913Z CLI info [testhub:module]  [andrespiasosa_E8pSkL]   [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Starting testhub from 81622:0
+2026-02-02T23:35:35.914Z CLI info  [andrespiasosa_E8pSkL]   [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-02-02T23:35:35.915Z CLI info  [andrespiasosa_E8pSkL]   [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-02-02T23:35:38.197Z CLI info [testhub:module]  [andrespiasosa_E8pSkL]   [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  startBuild: response=hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr
+2026-02-02T23:35:38.200Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-02T23:35:38.486Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-02-02T23:35:38.486Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-02-02T23:35:38.487Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-02-02T23:35:38.568Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-02T23:35:39.048Z CLI error  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  error invoking callback for eventName: {}
+2026-02-02T23:35:39.048Z CLI error  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-02-02T23:35:39.048Z CLI info [appautomate:service]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Using app: bs://4fca6ac49ca197a88731de1ce5e289202bd30a4d
+2026-02-02T23:35:42.417Z CLI info [sdk:service]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Driver initialized as primary driver: platformIndex=0
+2026-02-02T23:35:56.857Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'daab72e0-73f3-40b7-ae03-5801d65c31a2',
+    integrations: { browserstack: [Object] }
+  }
+} to 81622:0
+2026-02-02T23:35:56.859Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'daab72e0-73f3-40b7-ae03-5801d65c31a2',
+    name: 'Debe ingresar a Animation y agregar botones',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\n' +
+        '    await ApiDemosPage.tapAnimation();\n' +
+        '    await ApiDemosPage.tapDefaultLayoutAnimations();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await driver.pause(2000);\n' +
+        '  }'
+    },
+    identifier: 'Debe ingresar a Animation y agregar botones',
+    scope: 'ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones',
+    scopes: [ 'ApiDemos Android - Validar animaciones' ],
+    file_name: 'tests/specs/android.animation.spec.js',
+    vc_filepath: 'tests/specs/android.animation.spec.js',
+    location: 'tests/specs/android.animation.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-02-02T23:35:56.824Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 81622:0
+2026-02-02T23:35:58.212Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'daab72e0-73f3-40b7-ae03-5801d65c31a2',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'daab72e0-73f3-40b7-ae03-5801d65c31a2',
+      name: 'Debe ingresar a Animation y agregar botones',
+      body: [Object],
+      identifier: 'Debe ingresar a Animation y agregar botones',
+      scope: 'ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones',
+      scopes: [Array],
+      file_name: 'tests/specs/android.animation.spec.js',
+      vc_filepath: 'tests/specs/android.animation.spec.js',
+      location: 'tests/specs/android.animation.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-02-02T23:35:56.824Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 81622:0
+2026-02-02T23:35:58.212Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-02T23:36:05.729Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"daab72e0-73f3-40b7-ae03-5801d65c31a2","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones","test_name":"Debe ingresar a Animation y agregar botones","test_code":"async () => {\n    await ApiDemosPage.tapAnimation();\n    await ApiDemosPage.tapDefaultLayoutAnimations();\n    await ApiDemosPage.tapAddButton();\n    await ApiDemosPage.tapAddButton();\n    await ApiDemosPage.tapAddButton();\n    await driver.pause(2000);\n  }","test_file_path":"tests/specs/android.animation.spec.js","test_location":"tests/specs/android.animation.spec.js","test_scope":"ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones","test_scopes":["ApiDemos Android - Validar animaciones"],"test_started_at":"2026-02-02T23:35:56.824Z","automate_session_name":"ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-02T23:36:05.725Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-02T23:36:05.730Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'daab72e0-73f3-40b7-ae03-5801d65c31a2',
+    name: 'Debe ingresar a Animation y agregar botones',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\n' +
+        '    await ApiDemosPage.tapAnimation();\n' +
+        '    await ApiDemosPage.tapDefaultLayoutAnimations();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await ApiDemosPage.tapAddButton();\n' +
+        '    await driver.pause(2000);\n' +
+        '  }'
+    },
+    identifier: 'Debe ingresar a Animation y agregar botones',
+    scope: 'ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones',
+    scopes: [ 'ApiDemos Android - Validar animaciones' ],
+    file_name: 'tests/specs/android.animation.spec.js',
+    vc_filepath: 'tests/specs/android.animation.spec.js',
+    location: 'tests/specs/android.animation.spec.js',
+    result: 'passed',
+    duration_in_ms: 8901,
+    started_at: '2026-02-02T23:35:56.824Z',
+    finished_at: '2026-02-02T23:36:05.725Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 81622:0
+2026-02-02T23:36:06.215Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'daab72e0-73f3-40b7-ae03-5801d65c31a2',
+      name: 'Debe ingresar a Animation y agregar botones',
+      body: [Object],
+      identifier: 'Debe ingresar a Animation y agregar botones',
+      scope: 'ApiDemos Android - Validar animaciones - Debe ingresar a Animation y agregar botones',
+      scopes: [Array],
+      file_name: 'tests/specs/android.animation.spec.js',
+      vc_filepath: 'tests/specs/android.animation.spec.js',
+      location: 'tests/specs/android.animation.spec.js',
+      result: 'passed',
+      duration_in_ms: 8901,
+      started_at: '2026-02-02T23:35:56.824Z',
+      finished_at: '2026-02-02T23:36:05.725Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 81622:0
+2026-02-02T23:36:06.216Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-02T23:36:13.572Z CLI info [sdk:service]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Driver initialized as primary driver: platformIndex=0
+2026-02-02T23:36:27.909Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '2d319440-3e7a-4e64-b77d-77f79b0a54a8',
+    integrations: { browserstack: [Object] }
+  }
+} to 81622:0
+2026-02-02T23:36:27.911Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '2d319440-3e7a-4e64-b77d-77f79b0a54a8',
+    name: 'Debe ingresar a Morse Code y vibrar',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\n' +
+        '    await ApiDemosPage.tapOS();\n' +
+        '    await ApiDemosPage.tapMorseCode();\n' +
+        "    await ApiDemosPage.enterText('123');\n" +
+        '    await ApiDemosPage.tapVibrate();\n' +
+        '    await driver.pause(2000);\n' +
+        '  }'
+    },
+    identifier: 'Debe ingresar a Morse Code y vibrar',
+    scope: 'ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar',
+    scopes: [ 'ApiDemos Android - Ingreso a modalidad morse' ],
+    file_name: 'tests/specs/android.morse.spec.js',
+    vc_filepath: 'tests/specs/android.morse.spec.js',
+    location: 'tests/specs/android.morse.spec.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-02-02T23:36:27.885Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 81622:0
+2026-02-02T23:36:28.246Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '2d319440-3e7a-4e64-b77d-77f79b0a54a8',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '2d319440-3e7a-4e64-b77d-77f79b0a54a8',
+      name: 'Debe ingresar a Morse Code y vibrar',
+      body: [Object],
+      identifier: 'Debe ingresar a Morse Code y vibrar',
+      scope: 'ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar',
+      scopes: [Array],
+      file_name: 'tests/specs/android.morse.spec.js',
+      vc_filepath: 'tests/specs/android.morse.spec.js',
+      location: 'tests/specs/android.morse.spec.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-02-02T23:36:27.885Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 81622:0
+2026-02-02T23:36:28.278Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-02T23:36:35.529Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.23.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"2d319440-3e7a-4e64-b77d-77f79b0a54a8","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar","test_name":"Debe ingresar a Morse Code y vibrar","test_code":"async () => {\n    await ApiDemosPage.tapOS();\n    await ApiDemosPage.tapMorseCode();\n    await ApiDemosPage.enterText('123');\n    await ApiDemosPage.tapVibrate();\n    await driver.pause(2000);\n  }","test_file_path":"tests/specs/android.morse.spec.js","test_location":"tests/specs/android.morse.spec.js","test_scope":"ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar","test_scopes":["ApiDemos Android - Ingreso a modalidad morse"],"test_started_at":"2026-02-02T23:36:27.885Z","automate_session_name":"ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-02-02T23:36:35.494Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-02-02T23:36:35.534Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '2d319440-3e7a-4e64-b77d-77f79b0a54a8',
+    name: 'Debe ingresar a Morse Code y vibrar',
+    body: {
+      lang: 'ecmascript',
+      code: 'async () => {\n' +
+        '    await ApiDemosPage.tapOS();\n' +
+        '    await ApiDemosPage.tapMorseCode();\n' +
+        "    await ApiDemosPage.enterText('123');\n" +
+        '    await ApiDemosPage.tapVibrate();\n' +
+        '    await driver.pause(2000);\n' +
+        '  }'
+    },
+    identifier: 'Debe ingresar a Morse Code y vibrar',
+    scope: 'ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar',
+    scopes: [ 'ApiDemos Android - Ingreso a modalidad morse' ],
+    file_name: 'tests/specs/android.morse.spec.js',
+    vc_filepath: 'tests/specs/android.morse.spec.js',
+    location: 'tests/specs/android.morse.spec.js',
+    result: 'passed',
+    duration_in_ms: 7609,
+    started_at: '2026-02-02T23:36:27.885Z',
+    finished_at: '2026-02-02T23:36:35.494Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: false,
+      app_automate: true
+    }
+  },
+  logs: []
+} to 81622:0
+2026-02-02T23:36:36.230Z CLI info [testhub:request-queue-handler]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '2d319440-3e7a-4e64-b77d-77f79b0a54a8',
+      name: 'Debe ingresar a Morse Code y vibrar',
+      body: [Object],
+      identifier: 'Debe ingresar a Morse Code y vibrar',
+      scope: 'ApiDemos Android - Ingreso a modalidad morse - Debe ingresar a Morse Code y vibrar',
+      scopes: [Array],
+      file_name: 'tests/specs/android.morse.spec.js',
+      vc_filepath: 'tests/specs/android.morse.spec.js',
+      location: 'tests/specs/android.morse.spec.js',
+      result: 'passed',
+      duration_in_ms: 7609,
+      started_at: '2026-02-02T23:36:27.885Z',
+      finished_at: '2026-02-02T23:36:35.494Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 81622:0
+2026-02-02T23:36:36.231Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-02-02T23:36:39.859Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-02-02T23:36:39.862Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-02-02T23:36:40.257Z CLI info [testhub:module]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  stopBuild: hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr request={"finished_at":"2026-02-02T23:36:39.860Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-02-02T23:36:40.260Z CLI info  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-02-02T23:36:40.656Z CLI info [TEST REPORTING AND ANALYTICS:module]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Visit https://automation.browserstack.com/builds/hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr to view build report, insights, and many more debugging information all at one place!
+2026-02-02T23:36:40.659Z CLI info [main]  [andrespiasosa_E8pSkL]  [hd0y6vr5ixdbnhoajfkxd9npnl32gmuuvwfi7rkr]  [632ae8f9-aaa5-43d3-81b7-543b3c3a4a9b]  Received graceful signal termination, performing cleanup

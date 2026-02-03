@@ -7,6 +7,8 @@ exports.config = {
   port: 4723,
   path: '/',
   specs: [__dirname + '/../tests/specs/ios.*.spec.js'],
+  maxInstances: 1,
+  specFileRetries: 0,
 
   autoCompileOpts: {
     autoCompile: false
@@ -19,8 +21,14 @@ exports.config = {
       'appium:deviceName': 'iPhone 17 Pro',
       'appium:app': path.join(process.cwd(), 'apps', 'TestApp.app'),
       'appium:newCommandTimeout': 240,
-      'appium:noReset': true,
-      'appium:fullReset': false
+      'appium:noReset': false,
+      'appium:fullReset': false,
+      maxInstances: 1
     }
-  ]
+  ],
+
+  mochaOpts: {
+    ...baseConfig.mochaOpts,
+    parallel: false
+  }
 };

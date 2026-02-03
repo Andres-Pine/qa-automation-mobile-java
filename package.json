@@ -7,6 +7,9 @@
     "test:ios": "wdio config/wdio.ios.conf.js",
     "test:bs:android": "wdio config/wdio.browserstack.android.conf.js",
     "test:bs:ios": "wdio config/wdio.browserstack.ios.conf.js",
+    "test:screenplay:android": "wdio config/wdio.android.conf.js --spec=tests/screenplay/specs/android.*.spec.js",
+    "test:screenplay:ios": "wdio config/wdio.ios.conf.js --spec=tests/screenplay/specs/ios.*.spec.js",
+    "test:screenplay:all": "npm run test:screenplay:android && npm run test:screenplay:ios",
     "report": "allure generate allure-results --clean && allure open"
   },
   "keywords": [
